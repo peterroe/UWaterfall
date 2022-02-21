@@ -5,6 +5,7 @@ import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [vue(), vueJsx()],
+  base: '/UWaterfall/,
   build: {
     minify: true,
     outDir: 'docs'
