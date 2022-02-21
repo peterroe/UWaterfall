@@ -8,7 +8,7 @@ const imgArr = ref(new Array(20).fill(0).map((_,i) => `./demo/assets/${i + 1}.jp
 <template>
   <div>
     <h3>Demo:</h3>
-    <UWaterfall>
+    <UWaterfall :columnCount="4" columnGap="10px">
       <img 
         v-for="item in imgArr" 
         :key="item" 
