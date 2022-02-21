@@ -8,6 +8,13 @@
     "dev": "vite dev",
     "build": "vite build"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/uwaterfall.es.js",
+      "require": "./dist/uwaterfall.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
