@@ -11,7 +11,7 @@ const imgArr = ref(new Array(20).fill(0).map((_,i) => `./demo/assets/${i + 1}.jp
       <img 
         v-for="(item, index) in imgArr" 
         :key="item" 
-        :src="'/img/'+ (index + 1) + '.jpg'"
+        :src="'/UWaterfall/img/'+ (index + 1) + '.jpg'"
       />
     </UWaterfall>
   </div>
