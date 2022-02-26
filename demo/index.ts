@@ -4,4 +4,4 @@ import UWaterfall from '../src/main'
 // import 'uwaterfall/dist/style.css'
 import test from './test.vue'
 
-createApp(test).use(UWaterfall).mount('#app')
+createApp(test).mount('#app')

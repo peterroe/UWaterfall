@@ -29,7 +29,7 @@ export default defineComponent({
 </script>
 
 <style>
-.u-waterfall img{
+.u-waterfall > *{
   width: 100%;
   height: 100%;
   object-fit: fill;
